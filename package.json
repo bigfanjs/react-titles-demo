@@ -2,7 +2,7 @@
   "name": "react-titles-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bigfanjs.github.io/react-titles-demo",
+  "homepage": "http://bigfanjs.github.io/react-titles-demo/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
