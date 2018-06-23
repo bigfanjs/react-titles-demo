@@ -7,7 +7,7 @@ body {
 
 body::after {
   content: "";
-  background-image: url("/background-img.jpg");
+  background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_134925.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
