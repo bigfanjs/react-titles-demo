@@ -28,6 +28,7 @@ const Input = styled.input`
     padding: 5px;
     background-color: #171717;
     color: #989898;
+    text-transform: uppercase;
 `;
 
 const TitleInput = Input.extend`
@@ -82,8 +83,8 @@ class Title extends Component {
     e.preventDefault();
 
     this.setState((state) => ({
-      title: this.title.value,
-      subTitle: this.subTitle ? this.subTitle.value : state.subTitle
+      title: this.title.value.toUpperCase(),
+      subTitle: this.subTitle ? this.subTitle.value.toUpperCase() : state.subTitle
     }))
   }
 
